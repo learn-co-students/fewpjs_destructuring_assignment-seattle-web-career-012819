@@ -29,6 +29,19 @@ const k_muppet = {
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
+let [moo, neigh, baa, oink, cluck] = farmAnimals.split(" ");
+let [Bessie, , Dolly, Babe, Little] = farmAnimals.split(" ");
+let [black_and_white, , black, pink] = farmAnimals.split(" ");
+
+let [red, orange, yellow, green, blue, indigo, violet] = colors;
+let [r, o, y, g, b, i, v] = colors;
+let [, , , , , indg] = colors;
+
+let {name, color, song, job, partner} = muppet;
+
+let {song_2, song_4} = k_muppet.k_album.the_muppet_movie;
+let {k_job, k_partner} = k_muppet;
+
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
